@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1"
+      shrink-to-fit="no"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+    />
+    <style>
+      /* Растянула меню на всю ширину */
+      .container-fluid {
+        background-color: rgb(53, 52, 52);
+        color: gray;
+      }
+      .nav-link{
+        color: inherit;
+      }
+      .nav-item1{
+        color: white;
+      }
+      /* Изменила свойство bootstrap с помощью инструмента разработчика */
+      .navbar {
+        --bs-navbar-padding-x: 1;
+      }
+      .navbar-brand{
+        color: white;
+      }
+      .col-12{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        width: 65vw;
+        height: 40vh;
+      }
+      h1{
+        font-size: calc(1.525rem + 3.3vw);
+        font-weight: lighter;
+      }
+      /* По центру заголовок */
+      h5{
+        text-align: center;
+      }
+      .card-text {
+        text-align: center;
+      }
+      .img{
+        width: 500px;
+        height: 325px;
+      }
+      /* Расположила кнопку по центру */
+      .btn {
+        margin: 0;
+        display: block;
+      }
+    </style>
+    <title>Document</title>
+  </head>
+  <body>
+    <script
+    src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+    crossorigin="anonymous"
+  >
+  </script>
+    <header class="header">
+      <nav class="navbar navbar-light bg-light">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">Start Bootstrap</a>
+          <ul class="nav justify-content-end">
+          <li class="nav-item1">
+            <a class="nav-link active" aria-current="page" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Services</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Contact</a>
+          </li>
+        </ul></div>
+      </nav>
+    </header>
+    <main class="main">
+      <section class="main__section">
+        <div class="container">
+          <div class="row">
+            <div class="col-12">
+              <h1 class="section__title">A Warm Welcome!</h1>
+              <p class="section__text">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam sit
+          blanditiis, beatae hic, enim consequatur eos minima iusto alias,
+          doloremque quo voluptatibus aperiam fugiat dignissimos autem! Sequi
+          magni voluptatem laudantium.
+          <div><button type="button" class="btn btn-primary">Call to action!</button></div>
+            </div>
+          </div>
+        </div>
+		<div class="container">
+  <div class="row row-cols-1 row-cols-sm-1 row-cols-md-2 row-cols-lg-3 row-cols-xl-4">
+    <article class="col">
+      <div class="card">
+        <img src="assets/images/rectangle 2.svg" class="card-img-top" alt="an image of a rectangle">
+        <div class="card-body">
+          <h5 class="card-title">Card title</h5>
+          <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste saepe perferendis veritatis. Libero, saepe nam, repellendus magnam autem iste perferendis, tempora nostrum unde voluptate rerum eligendi impedit optio! Expedita, neque!</p>
+          <a href="#" class="btn btn-primary">Find Out More!</a>
+        </div>
+      </div>
+    </article>
+    <article class="col">
+      <div class="card">
+        <img src="assets/images/rectangle 2.svg" class="card-img-top" alt="an image of a rectangle">
+        <div class="card-body">
+          <h5 class="card-title">Card title</h5>
+          <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus id quas incidunt debitis iste quam ipsa nobis architecto nulla alias sunt perferendis qui voluptatum, quo laudantium minus illum exercitationem fugiat.</p>
+          <a href="#" class="btn btn-primary">Find Out More!</a></div>
+      </div>
+    </article>
+    <article class="col">
+      <div class="card">
+        <img src="assets/images/rectangle 2.svg" class="card-img-top" alt="an image of a rectangle">
+        <div class="card-body">
+          <h5 class="card-title">Card title</h5>
+          <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia nobis, sequi voluptates est non quidem molestias! Cupiditate facere deleniti vero consequuntur, nemo porro pariatur quibusdam eaque a facilis sit ipsum?</p>
+          <a href="#" class="btn btn-primary">Find Out More!</a></div>
+      </div>
+    </article>
+    <article class="col">
+      <div class="card">
+        <img src="assets/images/rectangle 2.svg" class="card-img-top" alt="an image of a rectangle">
+        <div class="card-body">
+          <h5 class="card-title">Card title</h5>
+          <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum, expedita accusantium explicabo nam repellat numquam dignissimos excepturi recusandae ducimus corporis at voluptatum ullam atque minima accusamus hic voluptate tenetur! Pariatur!</p>
+          <a href="#" class="btn btn-primary">Find Out More!</a></div>
+      </div>
+    </article>
+  </div>
+</div></section></main>
+<footer class="bg-body-tertiary text-center text-lg-start">
+  <!-- Copyright -->
+  <div class="text-center p-3" style="background-color:  rgb(53, 52, 52); color: white;">
+    Copyright © Your Website 2024 
+      </div>
+  <!-- Copyright -->
+</footer>
+</body>
+</html>
